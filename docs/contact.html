@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Introduction to Forms</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Get in touch!</h1>
+        </header>
+
+        <form action="https://formspree.io/f/mdojzloa" method="post">
+            <div class="form-item">   
+                <label for="name">Name</label>       
+                <input type="text" id="name" name="name">
+            </div>
+          <!--the for should be the same as the name
+              label and input go together-->
+            <div class="form-item">      
+                <label for="email">Email</label>      
+                <input type="email" id="mail" name="email">
+            </div>
+
+            <div class="form-item">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+
+
+            <div class="form-item">       
+                 <button type="submit">Send!</button>   
+            </div>
+
+        </form>
+
+    </body>
+</html>

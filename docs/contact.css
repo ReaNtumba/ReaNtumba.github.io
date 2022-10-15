@@ -1,0 +1,69 @@
+body {
+    background-color:#f0a3bc;
+    color: #8e68b1;
+    font-family:'Bangers', cursive;
+    Height: 100vh;
+    width: 100%;
+    background-image: url(pinkbackground4.png.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header {
+    border-bottom: 2px solid #f0a3bc;
+    text-align: center;
+    background-color: #f8b8cc;
+    border-top: 2px solid #f0a3bc;
+    border-left: 2px solid #f0a3bc;
+}
+
+form {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid #f0a3bc;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #87adfe;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2px solid #87adfe;
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.form-item button:hover {
+    border: 2px solid #87adfe;
+    background-color: #87adfe;
+    color: #8e68b1;
+}
+
+.form-item button {
+    width: 100px;
+}

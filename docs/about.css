@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    background-image: url(pinkbackground4.png.jpg);
+    
+  }
+  
+  .column {
+    float: center;
+    width: 54%;
+    padding: 0 8px;
+    margin-left: 300px;
+    margin-right: 20px;
+  }
+
+  .mypicture{
+    height: auto;
+    width: 200px;
+    align-items: center;
+    margin-left: 250px;
+  }
+  
+ 
+  
+  .about-section {
+    padding: 10px;
+    text-align: center;
+    background-color:#f0a3bc;
+    color:#8e68b1;
+  }
+  
+  
+  .container{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+ 
+
+  footer{
+    background-color: #f0a3bc;
+    text-align: center;
+  }
+
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+  .portfolio img{
+    height: auto;
+    width: 100px;
+    align-items: center;
+    margin-left: 250px;
+  }

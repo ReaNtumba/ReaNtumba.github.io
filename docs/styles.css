@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pinkbackground4.png.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navigation{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.mylogo{
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 45px;
+}
+
+nav{
+    flex: 1;
+    padding-left: 800px;
+    align-items: right;
+    font-size: 30px;
+}
+
+nav {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    text-align: right;
+}
+
+nav a{
+    text-decoration: note;
+    color: #8e68b1;
+    text-align:right;
+}
+
+.content h1{
+    font-size: 120px;
+    font-weight: 100; 
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:  #8e68b1; 
+    font-style: bold;
+    font-style: italic;  
+    text-align: left;
+}
+
+.content{
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+
+.main-image{
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+    pointer-events: none;
+}
+
+
+.bottom{
+    align-items: center;
+    background-color: pink;
+    display: flex;
+}
+
+.bottom p{
+    align-items: center;
+    margin-left: 650px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .main-image{
+    height: 80%;
+    bottom: 15%;
+    right: -15%;
+    }
+
+    .content h1 {
+        font-size: 100px;
+        font-weight: 100;
+        margin-top: 24px;
+        margin-bottom: 15px;
+        color: #8e68b1;
+        font-style: bold;
+        font-style: italic;
+        text-align: left;
+    }
+    
+    nav {
+        justify-content: end;
+    }
+    
+}
+
+
+
+
+
+
+/*
+body{
+    background: pink;
+    color: black;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(powerpuff.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    padding: 2px;
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*The header
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Abyssinica SIL', serif;
+    color: whitesmoke; 
+    
+}
+
+header{
+    height: 100px;
+    background-color:#f0a3bc;
+}
+
+header a{
+    display: left;
+}
+
+header a {
+    font-size: 20px;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 10px 0;
+	display: inline-block;
+	color: #fff;
+}
+
+.girlcode-logo{
+    font-weight: bold;
+}
+
+.techlogo{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.techgirl-image{
+   
+}
+
+nav{
+    float:right;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+
+
+
+h1{
+    text-align: center;
+    font-style: bold;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+.container{
+    
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100%;
+    background-color: #f0a3bc;
+    color: #fff;
+}
+
+
+
+.text-box h1{
+    font-size: 160px;
+    line-height: 100px;
+}
+
+
+
+
+
+@media  (max-width: 650px) {
+    .container-paragraph {
+      width: 50%;
+      display: block;
+    }
+    .container{
+        width: 50%;
+        display: block;
+    }
+}
+
+@media  (max-width: 900px) {
+    .container-paragraph {
+      width: 80%;
+      display: block;
+    }
+    .container{
+      width:80%;
+      display: block;
+    }
+}
+
+/*footer
+
+
+footer {
+    text-align: center;
+    background-color: #f0a3bc;
+    color:#fff ;
+    font-weight: bold;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+*/
