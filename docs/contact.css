@@ -1,36 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+
 body {
-    background-color:#f0a3bc;
-    color: #8e68b1;
+    background: linear-gradient(45deg, #8e68b1, #f0a3bc);
     font-family:'Bangers', cursive;
-    Height: 100vh;
-    width: 100%;
-    background-image: url(pinkbackground4.png.jpg);
-    background-position: center;
-    background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;
-    position: relative;
+    color: aliceblue;
 }
 
 header {
-    border-bottom: 2px solid #f0a3bc;
+    border-bottom: 2px solid #8e68b1;
     text-align: center;
     background-color: #f8b8cc;
     border-top: 2px solid #f0a3bc;
     border-left: 2px solid #f0a3bc;
+    padding: 5px, 10px, 5px, 10px;
+    height: 100px;
+    color: whitesmoke;
+    background: linear-gradient(65deg, #f0a3bc, #8e68b1);
+}
+
+h1{
+    padding-top: 25px;
 }
 
 form {
     margin: 50px auto;
     width: 90%;
+    padding-bottom: 280px;
 }
 
 .form-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 .form-item label {

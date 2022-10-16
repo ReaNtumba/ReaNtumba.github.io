@@ -9,9 +9,7 @@
 .container{
     height: 100vh;
     width: 100%;
-    background-image: url(pinkbackground4.png.jpg);
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(45deg, #8e68b1, #f0a3bc);
     padding-left: 5%;
     padding-right: 5%;
     box-sizing: border-box;
@@ -19,7 +17,7 @@
 }
 
 .navigation{
-    width: 100%;
+    width: 90%;
     height: 15vh;
     margin: auto;
     display: flex;
@@ -28,10 +26,13 @@
 
 
 .mylogo{
-    width: 150px;
+    width: 250px;
     cursor: pointer;
     margin-bottom: 45px;
+    margin-right: 15px;
+    margin-top: 50px;
 }
+
 
 nav{
     flex: 1;
@@ -64,6 +65,13 @@ nav a{
     text-align: left;
 }
 
+
+.content h2{
+    color:  #8e68b1;
+    font-size: 100px;
+    font-weight: 100;
+}
+
 .content{
     margin-left: 20%;
     margin-top: 10%;
@@ -81,74 +89,67 @@ nav a{
 }
 
 
-.bottom{
-    align-items: center;
-    background-color: pink;
-    display: flex;
-}
-
-.bottom p{
-    align-items: center;
-    margin-left: 650px;
-}
-
 @media only screen and (max-width: 900px) {
 
     .main-image{
-    height: 80%;
-    bottom: 15%;
-    right: -15%;
+    height: 65%;
+    bottom: 10%;
+    right: -10%;
     }
 
     .content h1 {
-        font-size: 100px;
-        font-weight: 100;
+        font-size: 85px;
+        font-weight: 95;
         margin-top: 24px;
         margin-bottom: 15px;
-        color: #8e68b1;
-        font-style: bold;
-        font-style: italic;
+        margin-left: 15px;
         text-align: left;
+    }
+
+    .content h2{
+        padding-right: 40%;
+        margin-right: 40%;
+        font-size:75px;
     }
     
     nav {
         justify-content: end;
+        padding: 0;
+    }
+                                                                
+   }
+
+
+
+   @media only screen and (max-width: 600px) {
+
+    .main-image{
+    height: 45%;
+    bottom: 35%;
+    right: -5%;
+    }
+
+    .content h1 {
+        font-size: 65px;
+        font-weight: 95;
+        margin-top: 24px;
+        margin-bottom: 15px;
+        margin-right: 35px;
+    }
+
+    .content h2{
+        padding-right: 25%;
+        margin-right: 25%;
+        font-size:65px;
     }
     
-}
+    nav {
+        justify-content: center;
+        padding: 0;
+    }
 
+   }
 
-
-
-
-
-/*
-body{
-    background: pink;
-    color: black;
-}
-
-#header{
-    width: 100%;
-    height: 100vh;
-    background-image: url(powerpuff.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.box{
-    padding: 2px;
-    height: 50px;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-*/
 
 
 

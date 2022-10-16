@@ -1,0 +1,39 @@
+body{
+    background-size: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #8e68b1,#f0a3bc);   
+}
+
+nav{
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+}
+
+img {
+    margin-top: 80px;
+    margin-bottom: 150px;
+    max-width: 500px;
+    pointer-events: none;
+}
+
+h2{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.port {
+    font-family: 'Bangers', cursive;
+    padding: 0px;
+    text-align: center;
+    background: transparent;
+    justify-content: center;
+}
+

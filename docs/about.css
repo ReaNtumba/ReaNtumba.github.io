@@ -4,70 +4,72 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
+.nav{
+  text-align: center;
+  font-size: 100px;
+}
+
+h1{
+  padding: 0px, 0px, 0px, 5px;
+  font-size: 45px;
+}
+.about-section {
+  font-family: 'Bangers', cursive;
+  padding: 0px, 4px, 0px, 4px;
+  text-align: center;
+  background: linear-gradient(45deg, #8e68b1, #f0a3bc);
+  color:  #8e68b1;
+}
+
+.mylogo{
+  cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-right:90%;
+  max-width: 150px;
+  height: 150px;
+}
 
 body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     margin: 0;
-    background: linear-gradient(45deg, #87adfe, #ff77cd);
-    background-image: url(pinkbackground4.png.jpg);
-    
+    background: linear-gradient(45deg, #8e68b1, #f0a3bc);
   }
   
-  .column {
-    float: center;
-    width: 54%;
-    padding: 0 8px;
-    margin-left: 300px;
-    margin-right: 20px;
-  }
-
   .mypicture{
-    height: auto;
-    width: 200px;
-    align-items: center;
-    margin-left: 250px;
+    max-width: 230px;
+  }
+
+  .github{
+    width: 45px;
+  }
+
+  .Linkdln{
+    width: 45px;
+  }
+
+  p{
+    font-size: 1.5rem;
+    color: aliceblue;
+    line-height: 2rem;
+    margin-bottom: auto;
   }
   
- 
-  
-  .about-section {
-    padding: 10px;
-    text-align: center;
-    background-color:#f0a3bc;
-    color:#8e68b1;
-  }
-  
-  
-  .container{
-    width: 1130px;
-    max-width: 95%;
+  .column{
+    max-width: 900px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
- 
-
-  footer{
-    background-color: #f0a3bc;
+    padding: 0 1rem;
+    margin-top: 1rem;
     text-align: center;
   }
-
-  
+ 
   @media screen and (max-width: 650px) {
     .column {
       width: 100%;
       display: block;
     }
-  }
-
-
-  .portfolio img{
-    height: auto;
-    width: 100px;
-    align-items: center;
-    margin-left: 250px;
   }
